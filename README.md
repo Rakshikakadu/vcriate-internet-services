@@ -65,7 +65,14 @@ This project is a Restaurant Management System built using Spring Boot. It provi
 
    Access the API documentation at http://localhost:8087/swagger-ui/index.html
 
-   
+
+## Project Structure
+
+- Model Layer: Defines the entities.
+- Repository Layer: Provides CRUD operations for the entities.
+- Service Layer: Contains the business logic.
+- Controller Layer: Handles HTTP requests and responses.
+- Security Layer: Manages authentication and authorization.
 
 
 
