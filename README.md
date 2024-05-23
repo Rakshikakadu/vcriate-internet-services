@@ -40,3 +40,35 @@ This project is a Restaurant Management System built using Spring Boot. It provi
    ```bash
    git clone https://github.com/yourusername/restaurant-management-system.git
    cd restaurant-management-system
+
+2. **Configure MySQL database:**
+
+   Update application.properties with your MySQL database configuration.
+   spring.datasource.url=jdbc:mysql://localhost:3306/restaurant_db
+   spring.datasource.username=root
+   spring.datasource.password=yourpassword
+   spring.jpa.hibernate.ddl-auto=update
+
+   app.jwtSecret=yourSecretKey
+   app.jwtExpirationMs=86400000
+   
+3. **Build and run the application:**
+
+   mvn clean install
+   mvn spring-boot:run
+
+4. **Access the application:**
+
+   The application will be running at http://localhost:8087
+
+5. **Swagger UI:**
+
+   Access the API documentation at http://localhost:8087/swagger-ui/index.html
+
+   
+
+
+
+   
+
+
